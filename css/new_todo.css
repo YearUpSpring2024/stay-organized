@@ -1,0 +1,63 @@
+
+/* Center the container horizontally */
+.container {
+    background-color: #eeeeee;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Add a border */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Rounded corners for the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Add top margin */
+.mt-5 {
+    margin-top: 3rem; /* Adjust as needed */
+}
+
+/* Center the heading */
+h1.text-center {
+    text-align: center;
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 1.5rem; /* Adjust spacing between form groups */
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea.form-control {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+/* Adjust select element width */
+select.form-control {
+    width: 100%; /* Full width */
+}
+
+/* Style the submit button */
+.btn-primary {
+    width: 100%;
+    max-width: 200px; 
+    margin-top: 1rem;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da; /* Add border to inputs */
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
