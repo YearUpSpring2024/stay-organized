@@ -93,7 +93,7 @@ function creatDropDownOptions(data) {
 }
 
 function createCard(data, studentName) {
-
+console.log(data);
     let cardDiv = document.createElement("div");
     cardDiv.classList.add("card", "mt-3");
 
@@ -118,7 +118,7 @@ function createCard(data, studentName) {
 
     let p2 = document.createElement("p");
     p2.classList.add("card-text");
-    p.innerHTML = "Deadline: " + data.deadline;
+    p2.innerHTML = "Deadline: " + data.deadline;
     cardBodyDiv.appendChild(p2);
 
     let p3 = document.createElement("p");
