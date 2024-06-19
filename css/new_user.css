@@ -1,0 +1,18 @@
+
+ .navbar {
+     background-color: #343a40;
+ }
+
+ .navbar-brand,
+ .nav-link {
+     color: #ffffff !important;
+ }
+
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 300px;
+    
+}
