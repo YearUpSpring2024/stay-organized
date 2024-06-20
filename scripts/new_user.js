@@ -2,11 +2,12 @@
 const newUserForm = document.getElementById('newUserForm');
 
 window.onload = function () {
+    newUserForm.onsubmit = submitNewUserForm;
 
 }
 
 function submitNewUserForm(event) {
-    event.prevenDefault();
+    event.preventDefault();
 
     const name = document.getElementById('name').value;
     const username = document.getElementById('username').value;
